@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>من نحن - المتجر</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>من نحن</h1>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="products.html">المنتجات</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <!-- قسم الرسالة -->
+    <section class="intro">
+      <h2>رسالتنا</h2>
+      <p>نهدف إلى تقديم منتجات عالية الجودة بأسعار منافسة مع خدمة عملاء ممتازة.</p>
+    </section>
+
+    <!-- قسم رؤيتنا -->
+    <section class="vision">
+      <h2>رؤيتنا</h2>
+      <p>أن نصبح من رواد التجارة الإلكترونية في المنطقة من خلال تقديم أفضل تجربة تسوق للعملاء، مع التركيز على الابتكار والاستدامة.</p>
+    </section>
+
+    <!-- قسم قيمنا -->
+    <section class="values">
+      <h2>قيمنا</h2>
+      <ul>
+        <li>الجودة: نحن نلتزم بتقديم منتجات عالية الجودة</li>
+        <li>الشفافية: نؤمن بأهمية الشفافية في تعاملاتنا</li>
+        <li>الابتكار: نبحث دائمًا عن طرق جديدة لتحسين تجربة عملائنا</li>
+        <li>الاستدامة: نعمل جاهدين للحفاظ على البيئة وتحقيق التنمية المستدامة</li>
+      </ul>
+    </section>
+
+    <!-- قسم فريق العمل -->
+    <section class="team">
+      <h2>فريق العمل</h2>
+      <p>فريقنا يتكون من مجموعة من المحترفين المبدعين الذين يساهمون في تقديم أفضل تجربة للعميل.</p>
+      <div class="team-members">
+        <div class="member">
+          <img src="images/girl.jpg" alt="عضو الفريق 1">
+          <h3>أحمد علي</h3>
+          <p>مدير العمليات</p>
+        </div>
+        <div class="member">
+          <img src="images/girl2.jpg" alt="عضو الفريق 2">
+          <h3>فاطمة الزهراء</h3>
+          <p>مديرة التسويق</p>
+        </div>
+        <div class="member">
+          <img src="images/man.jpg" alt="عضو الفريق 3">
+          <h3>محمد عبد الله</h3>
+          <p>مدير تطوير المنتجات</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم تاريخنا -->
+    <section class="history">
+      <h2>تاريخنا</h2>
+      <p>بدأنا في عام 2015 كمشروع صغير، واليوم نحن من أبرز المتاجر الإلكترونية في المنطقة، نقدم مجموعة متنوعة من المنتجات المبتكرة والخدمة الممتازة.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 المتجر الإلكتروني. جميع الحقوق محفوظة.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>المتجر الإلكتروني</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>مرحبا بكم في متجرنا</h1>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="products.html">المنتجات</a></li>
+        <li><a href="about.html">عن المتجر</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- شريط الصور -->
+  <div class="slideshow-container">
+    <div class="slide"><img src="images/image1.jpg" alt="صورة 1"></div>
+    <div class="slide"><img src="images/image2.jpg" alt="صورة 2"></div>
+    <div class="slide"><img src="images/image3.jpg" alt="صورة 3"></div>
+    <div class="slide"><img src="images/image4.jpg" alt="صورة 4"></div>
+  </div>
+<main>
+  <!-- مقدمة -->
+  <section class="intro">
+    <h2>اكتشف أحدث منتجاتنا</h2>
+    <p>نقدم لك تشكيلة واسعة من المنتجات بأسعار منافسة وجودة عالية.</p>
+  </section>
+
+  <!-- قسم المنتجات المميزة -->
+  <section class="featured-products">
+    <h2>منتجات مميزة</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/image1.jpg" alt="منتج 1">
+        <h3>اسم المنتج 1</h3>
+        <p>وصف مختصر للمنتج.</p>
+        <button>أضف للسلة</button>
+      </div>
+      <div class="product-card">
+        <img src="images/image4.jpg" alt="منتج 2">
+        <h3>اسم المنتج 2</h3>
+        <p>وصف مختصر للمنتج.</p>
+        <button>أضف للسلة</button>
+      </div>
+      <div class="product-card">
+        <img src="images/image3.jpg" alt="منتج 3">
+        <h3>اسم المنتج 3</h3>
+        <p>وصف مختصر للمنتج.</p>
+        <button>أضف للسلة</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم المزايا -->
+  <section class="features">
+    <h2>لماذا نحن؟</h2>
+    <ul>
+      <li>شحن سريع ومجاني للطلبات فوق 100$</li>
+      <li>خدمة عملاء متوفرة 24/7</li>
+      <li>ضمان استرجاع خلال 14 يوم</li>
+      <li>منتجات أصلية 100%</li>
+    </ul>
+  </section>
+
+  <!-- قسم آراء العملاء -->
+  <section class="testimonials">
+    <h2>آراء عملائنا</h2>
+    <blockquote>
+      "منتجات رائعة وسرعة في التوصيل! أنصح الجميع بالشراء من هذا المتجر."
+      <br><span>- عميل سعيد</span>
+    </blockquote>
+    <blockquote>
+      "خدمة ممتازة وجودة تفوق التوقعات."
+      <br><span>- نورة</span>
+    </blockquote>
+  </section>
+
+  <!-- قسم الاشتراك -->
+  <section class="subscribe">
+    <h2>اشترك في النشرة البريدية</h2>
+    <p>احصل على آخر العروض والخصومات مباشرة إلى بريدك.</p>
+    <form>
+      <input type="email" placeholder="ادخل بريدك الإلكتروني" required>
+      <button type="submit">اشترك الآن</button>
+    </form>
+  </section>
+</main>
+
+  <main>
+    <section class="intro">
+      <h2>اكتشف أحدث منتجاتنا</h2>
+      <p>نقدم لك تشكيلة واسعة من المنتجات بأسعار منافسة وجودة عالية.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; 2025</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("show");
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اتصل بنا - المتجر</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>اتصل بنا</h1>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="products.html">المنتجات</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>نرحب بتواصلكم</h2>
+      <p>يرجى ملء النموذج أدناه وسنقوم بالرد عليكم في أقرب وقت ممكن.</p>
+      <form>
+        <input type="text" placeholder="الاسم الكامل" required>
+        <input type="email" placeholder="البريد الإلكتروني" required>
+        <textarea placeholder="رسالتك" rows="5" required></textarea>
+        <button type="submit">إرسال</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 المتجر الإلكتروني. جميع الحقوق محفوظة.</p>
+  </footer>
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

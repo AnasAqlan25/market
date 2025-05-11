@@ -1,0 +1,72 @@
+<!-- products.html -->
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منتجاتنا - المتجر</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>منتجاتنا</h1>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="products.html">المنتجات</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="slideshow-container">
+    <div class="slide"><img src="images/barca.jpg" alt="منتج 1"></div>
+    <div class="slide"><img src="images/girl.jpg" alt="منتج 2"></div>
+    <div class="slide"><img src="images/image1.jpg" alt="منتج 3"></div>
+    <div class="slide"><img src="images/image3.jpg" alt="منتج 4"></div>
+  </div>
+  <main>
+    <section class="products">
+  <h2>المنتجات المميزة</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="images/rome.jpg" alt="منتج 1">
+      <h3>اسم المنتج 1</h3>
+      <p>وصف قصير للمنتج.</p>
+      <span class="price">20$</span>
+    </div>
+    <div class="product-card">
+      <img src="images/paris.jpg" alt="منتج 2">
+      <h3>اسم المنتج 2</h3>
+      <p>وصف قصير للمنتج.</p>
+      <span class="price">25$</span>
+    </div>
+    <div class="product-card">
+      <img src="images/man.jpg" alt="منتج 3">
+      <h3>اسم المنتج 3</h3>
+      <p>وصف قصير للمنتج.</p>
+      <span class="price">30$</span>
+    </div>
+    <!-- أضف المزيد حسب الحاجة -->
+  </div>
+</section>
+
+    <section class="intro">
+      <h2>تصفح تشكيلتنا الواسعة من المنتجات</h2>
+      <p>اختر ما يناسبك من بين أفضل العروض!</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 المتجر الإلكتروني. جميع الحقوق محفوظة.</p>
+  </footer>
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
+
+<!-- about.html -->
+
